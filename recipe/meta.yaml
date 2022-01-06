@@ -1,5 +1,5 @@
 {% set name = "py4xs" %}
-{% set version = "2021.11.4.0" %}
+{% set version = "2022.1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 380ffd44253f0a8dd3effc5feec983e4ef1b326f8877669bb5f28beb7efb316d
+  sha256: 06aab91e2982f38f46f82437b1378e0d50e9d9db84e3a5e2d0b65990200b72be
 
 build:
   noarch: python
