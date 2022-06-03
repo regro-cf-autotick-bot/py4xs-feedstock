@@ -1,5 +1,5 @@
 {% set name = "py4xs" %}
-{% set version = "2022.1.5.0" %}
+{% set version = "2022.6.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 06aab91e2982f38f46f82437b1378e0d50e9d9db84e3a5e2d0b65990200b72be
+  sha256: 1ba5e508960b6c78840322c1a1911f27b187c941ba14093e4be72fdf25fa6b99
 
 build:
   noarch: python
@@ -31,7 +31,6 @@ requirements:
 test:
   imports:
     - py4xs
-    - py4xs.atsas
     - py4xs.data2d
     - py4xs.detector_config
     - py4xs.exp_para
