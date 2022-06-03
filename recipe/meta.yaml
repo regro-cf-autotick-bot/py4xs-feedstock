@@ -31,7 +31,6 @@ requirements:
 test:
   imports:
     - py4xs
-    - py4xs.atsas
     - py4xs.data2d
     - py4xs.detector_config
     - py4xs.exp_para
