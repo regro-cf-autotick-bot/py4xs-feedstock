@@ -1,11 +1,11 @@
-About py4xs
-===========
+About py4xs-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py4xs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/py4xs
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py4xs-feedstock/blob/main/LICENSE.txt)
 
 Summary: py4xs - a python package for processing x-ray scattering data
 
@@ -97,7 +97,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -145,7 +145,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/event-model](https://github.com/conda-forge/event-model/)
+* [@conda-forge/event-model](https://github.com/orgs/conda-forge/teams/event-model/)
 * [@kbeeperez](https://github.com/kbeeperez/)
 * [@lyang11973](https://github.com/lyang11973/)
 * [@mrakitin](https://github.com/mrakitin/)
